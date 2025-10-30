@@ -109,6 +109,22 @@ portfolio/
     └── schema.prisma       # Prisma schema definition
 ```
 
+## Deployment
+
+Want to deploy this dashboard online? See the complete [Deployment Guide](DEPLOYMENT.md) for step-by-step instructions for:
+
+- **Vercel** (Recommended - Easiest, free tier)
+- **Railway** (Simple PostgreSQL hosting)
+- **Render** (Free tier with database)
+- **Self-hosted** (VPS/AWS/DigitalOcean)
+
+Quick start for Vercel:
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and import your repository
+3. Add Vercel Postgres database from Storage tab
+4. Set environment variables (NEXTAUTH_SECRET, NEXTAUTH_URL)
+5. Deploy!
+
 ## Security
 
 - Passwords are hashed using bcrypt
